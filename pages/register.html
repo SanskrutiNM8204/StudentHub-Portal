@@ -4,50 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REGISTER</title>
-     <style>
-        footer {
-            text-align: center;
-            background-color: #f1f1f1;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        </style>
 </head>
 <body>
-     <title>StudentHub Portal</title>
-    <header>
-        <h1>Student-Hub Portal</h1>
-    </header>
+    <h1>Student Registration</h1>
 
-    <!-- <nav>
+<form action="dashboard.html" method="get">
 
-        <a href="profile.html">Profile</a> &nbsp;&nbsp;
-        <a href="courses.html">Courses</a> &nbsp;&nbsp;
-        <a href="assignments.html">Assignments</a> &nbsp;&nbsp;
-        <a href="attendance.html">Attendance</a>  &nbsp;&nbsp;
-        <a href="result.html">Result</a> &nbsp;&nbsp;
-        <a href="resources.html">Resources</a> &nbsp;&nbsp;
-        <a href="contact.html">Contact</a></p> 
+<label>Name</label><br>
+<input type="text" required><br><br>
 
-    </nav> -->
-    
-    <form action="register.php" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
+<label>Email</label><br>
+<input type="email" required><br><br>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
+<label>Password</label><br>
+<input type="password" required><br><br>
 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required><br><br>
+<label>Confirm Password</label><br>
+<input type="password" required><br><br>
 
-        <input type="submit" value="Register">
-    <footer>
-        <br>
-        @2026 Student Portal 
-    </footer>
+<input type="submit" value="Register">
 
+</form>
 </body>
 </html>
