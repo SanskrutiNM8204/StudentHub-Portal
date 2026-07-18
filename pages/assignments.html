@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT WORK</title>
+    <style>
+        footer {
+            text-align: center;
+            background-color: #f1f1f1;
+            padding: 12px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>StudentHub Portal</h1>
+    </header>
+
+    <nav>
+        <a href="profile.html">Profile</a>
+        <a href="courses.html">Courses</a>
+        <a href="assignments.html">Assignments</a>
+        <a href="attendance.html">Attendance</a>
+        <a href="result.html">Result</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Assignment Work</h2>
+        <p>Use this page to view current assignments and submit completed work for your courses.</p>
+
+        <table class="assignment-list">
+            <thead>
+                <tr>
+                    <th>Assignment</th>
+                    <th>Course</th>
+                    <th>Due Date</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML &amp; CSS Project</td>
+                    <td>Web Development</td>
+                    <td>2026-07-20</td>
+                    <td>Pending</td>
+                </tr>
+                <tr>
+                    <td>JavaScript Practice</td>
+                    <td>Programming</td>
+                    <td>2026-07-22</td>
+                    <td>Pending</td>
+                </tr>
+                <tr>
+                    <td>Database Design</td>
+                    <td>Database Systems</td>
+                    <td>2026-07-25</td>
+                    <td>Pending</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <section class="upload-section">
+            <h3>Submit Assignment</h3>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <label for="assignment-file">Choose your assignment file</label>
+                <input type="file" id="assignment-file" name="assignment-file" required>
+
+                <label for="assignment-notes">Notes (optional)</label>
+                <textarea id="assignment-notes" name="assignment-notes" rows="4"></textarea>
+
+                <button type="submit">Upload Assignment</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        © 2026 Student Portal
+    </footer>
+</body>
+</html>
