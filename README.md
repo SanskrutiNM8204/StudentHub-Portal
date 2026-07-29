@@ -2,7 +2,7 @@ StudentHub Portal
 
 A role-based web application developed as part of the Web Development Laboratory. StudentHub Portal provides a centralized platform for students, faculty, and administrators to manage academic activities efficiently.
 
-📖 Project Overview
+Project Overview
 
 StudentHub Portal is designed to simplify the management of academic information by providing different dashboards and functionalities for Students, Faculty, and Administrators.
 
@@ -20,7 +20,6 @@ Objectives
 - Improve communication between students, faculty, and administrators.
 - Learn HTML, CSS, JavaScript and GitHub through project development.
 
----
 
 User Roles
 
