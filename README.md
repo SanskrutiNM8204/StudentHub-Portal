@@ -1,24 +1,18 @@
-# 🎓 StudentHub Portal
+StudentHub Portal
 
 A role-based web application developed as part of the Web Development Laboratory. StudentHub Portal provides a centralized platform for students, faculty, and administrators to manage academic activities efficiently.
 
----
-
-## 📖 Project Overview
+📖 Project Overview
 
 StudentHub Portal is designed to simplify the management of academic information by providing different dashboards and functionalities for Students, Faculty, and Administrators.
 
 The portal aims to reduce paperwork and provide easy access to academic resources through a simple and user-friendly interface.
 
----
-
-## 🎯 Problem Statement
+Problem Statement
 
 In many educational institutions, students and faculty need to access multiple systems for attendance, assignments, courses, and results. This project provides a single portal that centralizes these academic services while providing role-based access to different users.
 
----
-
-## 🎯 Objectives
+Objectives
 
 - Create a centralized academic portal.
 - Provide secure role-based login.
@@ -28,9 +22,9 @@ In many educational institutions, students and faculty need to access multiple s
 
 ---
 
-## 👥 User Roles
+User Roles
 
-### 👨‍🎓 Student
+Student
 
 - Login
 - View Dashboard
@@ -40,9 +34,7 @@ In many educational institutions, students and faculty need to access multiple s
 - View Results
 - View Profile
 
----
-
-### 👩‍🏫 Faculty
+Faculty
 
 - Login
 - Faculty Dashboard
@@ -53,9 +45,6 @@ In many educational institutions, students and faculty need to access multiple s
 - Manage Courses
 - View Student Information
 
----
-
-### 👨‍💼 Admin
 
 - Login
 - Admin Dashboard
@@ -66,9 +55,6 @@ In many educational institutions, students and faculty need to access multiple s
 - Manage Results
 - Manage Announcements
 
----
-
-## ✨ Features
 
 - Home Page
 - Role-Based / User-Type Login
@@ -84,9 +70,6 @@ In many educational institutions, students and faculty need to access multiple s
 - Contact Page
 - Responsive Navigation
 
----
-
-## 🛠 Technologies Used
 
 - HTML5
 - CSS3
@@ -94,9 +77,6 @@ In many educational institutions, students and faculty need to access multiple s
 - Visual Studio Code
 - GitHub
 
----
-
-## 📁 Project Structure
 
 
 StudentHub Portal
@@ -126,10 +106,6 @@ StudentHub Portal
 ├── README.md
 └── requirements.docx
 
-
----
-
-## 🗺 Navigation Flow
 
 Home
    │
@@ -164,10 +140,7 @@ Select User Role
                   ├── Manage Results
                   └── Announcements
 
----
-
-
-## 🚀 Future Enhancements
+Future Enhancements
 
 - Database Integration
 - User Authentication
@@ -179,9 +152,7 @@ Select User Role
 - Chat System
 - File Upload
 
----
-
-## 📚 Learning Outcomes
+Learning Outcomes
 
 Through this project, you can learn:
 
@@ -195,18 +166,14 @@ Through this project, you can learn:
 - GitHub Repository Management
 - Project Documentation
 
----
+Author
 
-## 👩‍💻 Author
+Name : Sanskruti Malaviya
 
-**Name:** Sanskruti Malaviya
+Course : B.Tech
 
-**Course:** B.Tech
+Project : StudentHub Portal
 
-**Project:** StudentHub Portal
-
----
-
-## 📄 License
+License
 
 This project is developed for educational and academic purposes only.

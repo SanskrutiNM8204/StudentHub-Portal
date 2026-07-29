@@ -1,0 +1,30 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #96afb1;
+    text-align: center;
+    text-decoration: underline;
+}
+footer {
+    margin-top: 360px;
+    background-color:bisque;
+
+}
+.login-container{
+    margin: 20px;
+    text-align: center;
+}
+.assignment{
+    font-family:'Times New Roman', Times, serif;
+    background-color: #96afb1;
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px;
+}
+.attendance{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:50px;
+    text-align:center;
+    table-layout: auto;
+    text-decoration: wavy;
+
+}
