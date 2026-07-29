@@ -1,0 +1,143 @@
+Requirement Analysis – StudentHub Portal
+
+1. Project Overview
+
+StudentHub Portal is a simple web-based application designed for students to manage their 
+academic activities in one place. It provides a user-friendly interface where students can 
+register, log in, and access important information such as attendance, assignments, timetable, results, and courses.
+
+2. Project Objective
+
+The main objective of the StudentHub Portal is to:
+
+- Provide a central platform for students.
+- Allow students to register and log in securely.
+- Help students manage academic information easily.
+- Reduce the time required to access different student services.
+
+3. Functional Requirements
+
+Home Page
+- Display the portal title.
+- Show a welcome message.
+- Provide a brief description of the portal.
+- Display links to the Login and Register pages.
+
+Registration
+- Allow new students to create an account.
+- Collect the following information:
+  - Full Name
+  - Email Address
+  - Username
+  - Password
+  - Confirm Password
+- Validate user input before registration.
+
+Login
+- Allow registered students to log in using their username or email and password.
+- Verify user credentials.
+- Display an error message if the credentials are incorrect.
+
+Student Dashboard (Future Enhancement)
+After successful login, students should be able to:
+- View attendance.
+- View assignments.
+- Check timetable.
+- View examination results.
+- Access course information.
+
+Navigation
+- Users should be able to navigate easily between the Home, Login, and Register pages.
+
+4. Non-Functional Requirements
+
+Usability
+The website should have a clean and simple interface that is easy for students to use.
+
+Performance
+Pages should load quickly and respond smoothly.
+
+Security
+User passwords should be protected, and only authenticated users should be able to access student information.
+
+Reliability
+The application should function without unexpected errors.
+
+Responsiveness
+The website should work properly on desktops, tablets, and mobile devices.
+
+### Maintainability
+The project should be easy to update and maintain in the future.
+
+5. User Requirements
+
+The user should be able to:
+
+- Open the StudentHub Portal.
+- Read the portal information.
+- Register as a new student.
+- Log in using valid credentials.
+- Access student-related information after login.
+
+6. System Requirements
+
+Hardware Requirements
+- Computer or Laptop
+- Keyboard and Mouse
+- Internet Connection
+
+Software Requirements
+- HTML5
+- CSS3
+- JavaScript (optional)
+- Visual Studio Code
+- Modern Web Browser (Chrome, Firefox, Edge)
+
+7. Input Requirements
+
+The system accepts the following inputs:
+
+- Full Name
+- Email Address
+- Username
+- Password
+- Confirm Password
+
+8. Output Requirements
+
+The system provides the following outputs:
+
+- Welcome page
+- Registration success message
+- Login success or error message
+- Student dashboard after successful login
+
+9. Constraints
+
+- Only registered users can log in.
+- Username or email should be unique.
+- Password and Confirm Password must match.
+- All required fields must be completed before form submission.
+
+10. Assumptions
+
+- Every student has a valid email address.
+- Users have access to the internet.
+- The portal is intended only for students.
+
+11. Future Scope
+
+The following features can be added in future versions:
+
+- Student profile management.
+- Password recovery.
+- Online assignment submission.
+- Attendance analytics.
+- Course registration.
+- Notifications and announcements.
+- Faculty and admin modules.
+- Student feedback system.
+
+12. Conclusion
+
+StudentHub Portal is a basic student management web application that allows students to register, log in, and access academic information from a single platform. The system is designed to be simple, secure, responsive, and easy to use, making academic management more convenient for students.
