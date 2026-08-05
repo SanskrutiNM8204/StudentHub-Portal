@@ -1,0 +1,3 @@
+In this pratical,developed static html pages like assignment, attendace, contact, courses, dashboard. etc and
+connected them by using html tags like hearder, main, a href, navigation, section, footer and learned how the pages are linked/ connected
+with each other.

@@ -1,0 +1,2 @@
+practical 3:
+Applied css in this practical in all the pages to make it user-friendly and responsive.
