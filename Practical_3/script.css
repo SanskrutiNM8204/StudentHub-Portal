@@ -40,9 +40,18 @@ a{
     border-radius:10px;
 }
 
-.page-head{
+.login-container{
     text-align:center;
-    margin-bottom:20px;
+    width:80%;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+.form-group{
+    text-align:center;
+    margin-bottom:15px;
 }
 
 label{

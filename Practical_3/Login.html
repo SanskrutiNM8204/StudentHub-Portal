@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | StudentHub</title>
+    <link rel="stylesheet" href="script.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>StudentHub Login</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="userType">Select User Type</label>
+                <select id="userType" name="userType" required>
+                    <option value="">-- Select User Type --</option>
+                    <option value="student">Student</option>
+                    <option value="faculty">Faculty</option>
+                    <option value="admin">Admin</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input id="username" type="text" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input id="password" type="password" name="password" required>
+            </div>
+            <input type="submit" value="Login">
+            <p id="loginMessage"></p>
+        </form>
+        <p><a href="Register.html">Register Here</a></p>
+        <p><a href="Contact.html">Contact</a></p>
+    </div>
+    <footer>
+        <p>© 2026 StudentHub Portal</p>
+    </footer>
+    <script src="../Practical_4/javaScript.js"></script>
+</body>
+</html>
