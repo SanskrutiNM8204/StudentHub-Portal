@@ -293,3 +293,57 @@ button:hover {
     background: #075985; 
 }
 @media (max-width: 600px) { .registration-panel { padding: 24px 18px; }.field-grid { grid-template-columns: 1fr; }.full-width { grid-column: auto; } }
+
+small {
+    display: block;
+    margin-top: 5px;
+    color: #d00000;
+    min-height: 18px;
+    text-align: left;
+}
+
+input.error,
+select.error {
+    border: 2px solid #d00000;
+}
+
+input.valid,
+select.valid {
+    border: 2px solid green;
+}
+
+#passwordStrength {
+    margin-top: 6px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#registerMessage {
+    margin-top: 15px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+
+.radio-label {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+fieldset {
+    border: none;
+}
+
+.terms {
+    margin-bottom: 20px;
+}
+
+.terms label {
+    font-weight: normal;
+}
+
+.terms input {
+    width: auto;
+    margin-right: 5px;
+}

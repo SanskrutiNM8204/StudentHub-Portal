@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration | StudentHub</title>
+    <link rel="stylesheet" href="script.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>StudentHub Portal</h1>
+        <h2>Student Registration</h2>
+
+        <form id="registerForm" novalidate>
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" autocomplete="name" required>
+                <small id="nameError"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" autocomplete="email" required>
+                <small id="emailError"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="mobile">Mobile Number</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="Enter 10 digit mobile number" autocomplete="tel" required>
+                <small id="mobileError"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Create a strong password" autocomplete="new-password" required>
+                <div id="passwordStrength"></div>
+                <small id="passwordError"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Re-enter your password" autocomplete="new-password" required>
+                <small id="confirmPasswordError"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="course">Course</label>
+                <select id="course" name="course" required>
+                    <option value="">Select Course</option>
+                    <option value="B.Tech CSE">B.Tech CSE</option>
+                    <option value="B.Tech IT">B.Tech IT</option>
+                    <option value="B.Tech CE">B.Tech CE</option>
+                    <option value="B.Tech ECE">B.Tech ECE</option>
+                </select>
+                <small id="courseError"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="year">Year</label>
+                <select id="year" name="year" required>
+                    <option value="">Select Year</option>
+                    <option value="First Year">First Year</option>
+                    <option value="Second Year">Second Year</option>
+                    <option value="Third Year">Third Year</option>
+                    <option value="Fourth Year">Fourth Year</option>
+                </select>
+                <small id="yearError"></small>
+            </div>
+
+            <fieldset class="form-group">
+                <legend>Gender</legend>
+
+                <label class="radio-label">
+                    <input type="radio" name="gender" value="Male"> Male
+                </label>
+
+                <label class="radio-label">
+                    <input type="radio" name="gender" value="Female"> Female
+                </label>
+
+                <label class="radio-label">
+                    <input type="radio" name="gender" value="Other"> Other
+                </label>
+
+                <small id="genderError"></small>
+            </fieldset>
+
+            <div class="terms">
+                <label>
+                    <input type="checkbox" id="terms" name="terms"> I accept the Terms and Conditions
+                </label>
+                <small id="termsError"></small>
+            </div>
+
+            <button type="submit">Register</button>
+            <p id="registerMessage"></p>
+        </form>
+
+        <p>
+            Already have an account?
+            <a href="../Practical_3/Login.html">Login Here</a>
+        </p>
+
+        <p>
+            <a href="../Practical_3/Contact.html">Contact</a>
+        </p>
+    </div>
+
+    <footer>
+        <p>© 2026 StudentHub Portal</p>
+    </footer>
+
+    <script src="javaScript.js"></script>
+</body>
+</html>
