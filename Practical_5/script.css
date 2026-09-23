@@ -292,7 +292,17 @@ button {
 button:hover {
     background: #075985; 
 }
-@media (max-width: 600px) { .registration-panel { padding: 24px 18px; }.field-grid { grid-template-columns: 1fr; }.full-width { grid-column: auto; } }
+@media (max-width: 600px) { 
+    .registration-panel { 
+        padding: 24px 18px; 
+    }
+    .field-grid { 
+        grid-template-columns: 1fr; 
+    }
+    .full-width { 
+        grid-column: auto; 
+    } 
+}
 
 small {
     display: block;

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - Practical 6</title>
+    <link rel="stylesheet" href="script.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>StudentHub Portal</h1>
+        <p>Practical 6 - External JSON Data</p>
+    </header>
+
+    <main>
+
+        <section class="section">
+
+            <h2>Student Profiles</h2>
+
+            <div class="controls">
+
+                <input
+                    type="text"
+                    id="studentSearch"
+                    placeholder="Search student by name..."
+                >
+
+                <select id="courseFilter">
+                    <option value="all">All Courses</option>
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="BCA">BCA</option>
+                    <option value="MCA">MCA</option>
+                </select>
+
+                <select id="studentSort">
+                    <option value="name">Sort by Name</option>
+                    <option value="year">Sort by Year</option>
+                </select>
+
+            </div>
+
+            <p id="studentLoading">Loading students...</p>
+
+            <p id="studentError" class="error"></p>
+
+            <div id="studentContainer" class="grid"></div>
+
+            <div id="studentPagination" class="pagination"></div>
+
+        </section>
+
+
+        <section class="section">
+
+            <h2>College Events</h2>
+
+            <div class="controls">
+
+                <input
+                    type="text"
+                    id="eventSearch"
+                    placeholder="Search events..."
+                >
+
+                <select id="eventFilter">
+                    <option value="all">All Categories</option>
+                    <option value="Workshop">Workshop</option>
+                    <option value="Seminar">Seminar</option>
+                    <option value="Competition">Competition</option>
+                    <option value="Sports">Sports</option>
+                    <option value="Cultural">Cultural</option>
+                    <option value="Exhibition">Exhibition</option>
+                    <option value="Placement">Placement</option>
+                </select>
+
+                <select id="eventSort">
+                    <option value="name">Sort by Name</option>
+                    <option value="date">Sort by Date</option>
+                </select>
+
+            </div>
+
+            <p id="eventLoading">Loading events...</p>
+
+            <p id="eventError" class="error"></p>
+
+            <div id="eventContainer" class="grid"></div>
+
+            <div id="eventPagination" class="pagination"></div>
+
+        </section>
+
+
+        <section class="section">
+
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="controls">
+
+                <input
+                    type="text"
+                    id="faqSearch"
+                    placeholder="Search FAQs..."
+                >
+
+            </div>
+
+            <p id="faqLoading">Loading FAQs...</p>
+
+            <p id="faqError" class="error"></p>
+
+            <div id="faqContainer"></div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 StudentHub Portal</p>
+    </footer>
+
+    <script src="javaScript.js"></script>
+
+</body>
+</html>

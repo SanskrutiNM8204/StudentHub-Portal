@@ -602,6 +602,9 @@ if (registerForm) {
                     "Registration successful!"
                 );
 
+                window.location.href =
+                    "../Practical_3/Dashboard.html";
+
                 registerForm.reset();
 
                 passwordStrength.textContent = "";

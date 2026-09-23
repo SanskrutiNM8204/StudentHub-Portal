@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Web Development Workshop",
+        "date": "2026-09-20",
+        "category": "Workshop",
+        "location": "Computer Lab"
+    },
+    {
+        "id": 2,
+        "name": "Java Programming Seminar",
+        "date": "2026-09-22",
+        "category": "Seminar",
+        "location": "Seminar Hall"
+    },
+    {
+        "id": 3,
+        "name": "Sports Day",
+        "date": "2026-09-25",
+        "category": "Sports",
+        "location": "College Ground"
+    },
+    {   
+        "id": 4,
+        "name": "Placement Drive",
+        "date": "2026-10-26",
+        "category": "Placement",
+        "location": "Main Hall"
+    },
+    {
+        "id": 5,
+        "name": "Mathematics Seminar",
+        "date": "2026-10-28",
+        "category": "Seminar",
+        "location": "Room 202"
+    },
+    {
+        "id": 6,
+        "name": "Annual Function",
+        "date": "2026-10-30",
+        "category": "Cultural",
+        "location": "Auditorium"
+    }
+]

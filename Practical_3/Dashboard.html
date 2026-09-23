@@ -24,7 +24,32 @@
             <li><a href="Contact.html">Contact</a></li>
             <li><a href="../index.html">Logout</a></li>
         </ul>
+         <input type="text" id="studentSearch" placeholder="Search students...">
+        <h2>Students</h2>
+        <select id="courseFilter">
+            <option value="all">All Courses</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="BCA">BCA</option>
+            <option value="MCA">MCA</option>
+        </select>
+
+        <select id="sortStudents">
+            <option value="name">Sort by Name</option>
+            <option value="year">Sort by Year</option>
+        </select>
+
+        <div id="studentContainer"></div>
+
+        <div id="studentPagination"></div>
+        <h2>Events</h2>
+
+        <input type="text" id="eventSearch" placeholder="Search events...">
+        <div id="eventContainer"></div>
+        <h3>FAQs</h3>
+        <div id="faqContainer"></div>
+
     </div>
+
     <footer>
         <p>© 2026 StudentHub Portal</p>
     </footer>

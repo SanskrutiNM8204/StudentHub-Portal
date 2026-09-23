@@ -100,12 +100,6 @@ input[type="submit"] {
     background-color: #1f4fa3;
     color: white;
 }
-.hero-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-}
 
 button:hover,
 input[type="submit"]:hover {
@@ -298,4 +292,234 @@ button {
 button:hover {
     background: #075985; 
 }
-@media (max-width: 600px) { .registration-panel { padding: 24px 18px; }.field-grid { grid-template-columns: 1fr; }.full-width { grid-column: auto; } }
+@media (max-width: 600px) { 
+    .registration-panel { 
+        padding: 24px 18px; 
+    }
+    .field-grid { 
+        grid-template-columns: 1fr; 
+    }
+    .full-width { 
+        grid-column: auto; 
+    } 
+}
+
+small {
+    display: block;
+    margin-top: 5px;
+    color: #d00000;
+    min-height: 18px;
+    text-align: left;
+}
+
+input.error,
+select.error {
+    border: 2px solid #d00000;
+}
+
+input.valid,
+select.valid {
+    border: 2px solid green;
+}
+
+#passwordStrength {
+    margin-top: 6px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#registerMessage {
+    margin-top: 15px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+
+.radio-label {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+fieldset {
+    border: none;
+}
+
+.terms {
+    margin-bottom: 20px;
+}
+
+.terms label {
+    font-weight: normal;
+}
+
+.terms input {
+    width: auto;
+    margin-right: 5px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #173f7a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 25px;
+}
+
+.section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.section h2 {
+    color: #173f7a;
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.controls input,
+.controls select {
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.controls input {
+    flex: 1;
+    min-width: 220px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 18px;
+}
+
+.card h3 {
+    color: #173f7a;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 5px;
+}
+
+.faq-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 18px;
+    margin-bottom: 12px;
+}
+
+.faq-card h3 {
+    color: #173f7a;
+    margin-bottom: 8px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.pagination button {
+    padding: 8px 14px;
+    border: 1px solid #173f7a;
+    background-color: white;
+    color: #173f7a;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #173f7a;
+    color: white;
+}
+
+.pagination button.active {
+    background-color: #173f7a;
+    color: white;
+}
+
+.error {
+    color: #c62828;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #173f7a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 15px;
+    }
+
+    .section {
+        padding: 18px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .controls {
+        flex-direction: column;
+    }
+
+    .controls input,
+    .controls select {
+        width: 100%;
+    }
+}

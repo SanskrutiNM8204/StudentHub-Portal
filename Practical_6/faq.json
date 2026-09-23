@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "question": "What is StudentHub?",
+        "answer": "StudentHub is a student management portal."
+    },
+    {
+        "id": 2,
+        "question": "How can I login?",
+        "answer": "Select your user type and enter your username and password."
+    },
+    {
+        "id": 3,
+        "question": "How can I check attendance?",
+        "answer": "Open the Attendance section from the student dashboard."
+    },
+    {
+        "id": 4,
+        "question": "How can I view assignments?",
+        "answer": "Open the Assignment section from the dashboard."
+    },
+    {
+        "id": 5,
+        "question": "How can I check results?",
+        "answer": "Open the Result section to view academic results."
+    },
+    {
+        "id": 6,
+        "question": "How can I view courses?",
+        "answer": "Open the Courses section from the student dashboard."
+    },
+    {
+        "id": 7,
+        "question": "How can I update my profile?",
+        "answer": "Open the Profile section and update your information."
+    },
+    {
+        "id": 8,
+        "question": "How can I contact faculty?",
+        "answer": "Use the Contact section to communicate with faculty."
+    },
+    {
+        "id": 9,
+        "question": "How can I register?",
+        "answer": "Click the Register option and complete the registration form."
+    },
+    {
+        "id": 10,
+        "question": "What is the dashboard?",
+        "answer": "The dashboard provides access to important student services."
+    },
+    {
+        "id": 11,
+        "question": "How can I view events?",
+        "answer": "Upcoming events can be viewed in the Events section."
+    },
+    {
+        "id": 12,
+        "question": "How can I submit assignments?",
+        "answer": "Assignments can be submitted through the Assignment section."
+    },
+    {
+        "id": 13,
+        "question": "How can I view announcements?",
+        "answer": "Announcements are displayed on the portal."
+    },
+    {
+        "id": 14,
+        "question": "How can I give feedback?",
+        "answer": "Use the Feedback section to submit feedback."
+    },
+    {
+        "id": 15,
+        "question": "How can I logout?",
+        "answer": "Click the Logout option from the dashboard."
+    }
+]

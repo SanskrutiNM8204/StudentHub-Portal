@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Sanskruti Malaviya",
+        "course": "B.Tech",
+        "year": 1,
+        "email": "sanskruti@gmail.com"
+    },
+    {
+        "id": 2,
+        "name": "Shyam Patel",
+        "course": "B.Tech",
+        "year": 1,
+        "email": "shyam@gmail.com"
+    },
+    {
+        "id" : 3,
+        "name" : "Yash Manipara",
+        "course" : "B.Tech",
+        "year" : 3,
+        "email" : "yash@gamil.com"
+    },
+    {
+        "id" : 4,
+        "name" : "Yash Malvaniya",
+        "course" : "B.Tech",
+        "year" : 4,
+        "email" : "yashm@gamil.com"
+    }
+]
