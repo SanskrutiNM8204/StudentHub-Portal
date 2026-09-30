@@ -1,0 +1,287 @@
+[
+    {
+        "id": 1,
+        "name": "A",
+        "course": "B.Tech",
+        "year": 1,
+        "email": "A@gmail.com"
+    },
+    {
+        "id": 2,
+        "name": "B",
+        "course": "B.Tech",
+        "year": 1,
+        "email": "B@gmail.com"
+    },
+    {
+        "id" : 3,
+        "name" : "C",
+        "course" : "B.Tech",
+        "year" : 3,
+        "email" : "C@gamil.com"
+    },
+    {
+        "id" : 4,
+        "name" : "D",
+        "course" : "B.Tech",
+        "year" : 4,
+        "email" : "D@gamil.com"
+    },
+    {
+        "id" : 5,
+        "name" : "E",
+        "course" : "B.Tech",
+        "year" : 2,
+        "email" : "E@gmail.com"
+        },
+    {
+        "id" : 6,
+        "name" : "F",
+        "course" : "B.Tech",
+        "year" : 2,
+        "email" : "F@gmail.com"
+        },
+    {
+        "id" : 7,
+        "name" : "G",
+        "course" : "B.Tech",
+        "year" : 2,
+        "email" : "G@gmail.com"
+        },
+    {
+        "id" : 8,
+        "name" : "H",
+        "course" : "B.Tech",
+        "year" : 2,
+        "email" : "H@gmail.com"
+        },
+    {
+        "id" : 9,
+        "name" : "I",
+        "course" : "B.Tech",
+        "year" : 2,
+        "email" : "I@gmail.com"
+        },
+    {
+        "id" : 10,
+        "name" : "J",
+        "course" : "B.Tech",
+        "year" : 2,
+        "email" : "J@gmail.com"
+        },
+    {
+        "id" : 11,
+        "name" : "K",
+        "course" : "B.Tech",
+        "year" : 2,
+        "email" : "K@gmail.com"
+        },
+    {
+        "id" : 12,
+        "name" : "L",
+        "course" : "B.Tech",
+        "year" : 2,
+        "email" : "L@gmail.com"
+        },
+    {
+        "id" : 13,
+        "name" : "M",
+        "course" : "B.Tech",
+        "year" : 2,
+        "email" : "M@gmail.com"
+        },
+    {
+        "id" : 14,
+        "name" : "N",
+        "course" : "B.Tech",
+        "year" : 2,
+        "email" : "N@gmail.com"
+        },
+    {
+        "id" : 15,
+        "name" : "O",
+        "course" : "B.Tech",
+        "year" : 2,
+        "email" : "O@gmail.com"
+        },
+    {
+        "id": 1,
+        "title": "Web Development Workshop",
+        "date": "2026-10-05",
+        "category": "Workshop",
+        "location": "Computer Lab 1"
+    },
+    {
+        "id": 2,
+        "title": "Coding Competition",
+        "date": "2026-10-08",
+        "category": "Competition",
+        "location": "Seminar Hall"
+    },
+    {
+        "id": 3,
+        "title": "Freshers Welcome",
+        "date": "2026-10-12",
+        "category": "Cultural",
+        "location": "Main Auditorium"
+    },
+    {
+        "id": 4,
+        "title": "Java Programming Seminar",
+        "date": "2026-10-15",
+        "category": "Seminar",
+        "location": "Computer Lab 2"
+    },
+    {
+        "id": 5,
+        "title": "Sports Day",
+        "date": "2026-10-18",
+        "category": "Sports",
+        "location": "University Ground"
+    },
+    {
+        "id": 6,
+        "title": "AI and Machine Learning Workshop",
+        "date": "2026-10-21",
+        "category": "Workshop",
+        "location": "Seminar Hall"
+    },
+    {
+        "id": 7,
+        "title": "Hackathon 2026",
+        "date": "2026-10-24",
+        "category": "Competition",
+        "location": "Innovation Lab"
+    },
+    {
+        "id": 8,
+        "title": "Cyber Security Awareness",
+        "date": "2026-10-27",
+        "category": "Seminar",
+        "location": "Main Auditorium"
+    },
+    {
+        "id": 9,
+        "title": "Cultural Fest",
+        "date": "2026-10-30",
+        "category": "Cultural",
+        "location": "University Ground"
+    },
+    {
+        "id": 10,
+        "title": "Database Management Workshop",
+        "date": "2026-11-02",
+        "category": "Workshop",
+        "location": "Computer Lab 1"
+    },
+    {
+        "id": 11,
+        "title": "Football Tournament",
+        "date": "2026-11-05",
+        "category": "Sports",
+        "location": "University Ground"
+    },
+    {
+        "id": 12,
+        "title": "Career Guidance Seminar",
+        "date": "2026-11-08",
+        "category": "Seminar",
+        "location": "Seminar Hall"
+    },
+    {
+        "id": 13,
+        "title": "Project Exhibition",
+        "date": "2026-11-12",
+        "category": "Competition",
+        "location": "Exhibition Hall"
+    },
+    {
+        "id": 14,
+        "title": "Annual Day Celebration",
+        "date": "2026-11-15",
+        "category": "Cultural",
+        "location": "Main Auditorium"
+    },
+    {
+        "id": 15,
+        "title": "Cloud Computing Workshop",
+        "date": "2026-11-18",
+        "category": "Workshop",
+        "location": "Computer Lab 2"
+    },
+    {
+        "id": 1,
+        "question": "What is StudentHub?",
+        "answer": "StudentHub is a student management portal."
+    },
+    {
+        "id": 2,
+        "question": "How can I login?",
+        "answer": "Select your user type and enter your username and password."
+    },
+    {
+        "id": 3,
+        "question": "How can I check attendance?",
+        "answer": "Open the Attendance section from the student dashboard."
+    },
+    {
+        "id": 4,
+        "question": "How can I view assignments?",
+        "answer": "Open the Assignment section from the dashboard."
+    },
+    {
+        "id": 5,
+        "question": "How can I check results?",
+        "answer": "Open the Result section to view academic results."
+    },
+    {
+        "id": 6,
+        "question": "How can I view courses?",
+        "answer": "Open the Courses section from the student dashboard."
+    },
+    {
+        "id": 7,
+        "question": "How can I update my profile?",
+        "answer": "Open the Profile section and update your information."
+    },
+    {
+        "id": 8,
+        "question": "How can I contact faculty?",
+        "answer": "Use the Contact section to communicate with faculty."
+    },
+    {
+        "id": 9,
+        "question": "How can I register?",
+        "answer": "Click the Register option and complete the registration form."
+    },
+    {
+        "id": 10,
+        "question": "What is the dashboard?",
+        "answer": "The dashboard provides access to important student services."
+    },
+    {
+        "id": 11,
+        "question": "How can I view events?",
+        "answer": "Upcoming events can be viewed in the Events section."
+    },
+    {
+        "id": 12,
+        "question": "How can I submit assignments?",
+        "answer": "Assignments can be submitted through the Assignment section."
+    },
+    {
+        "id": 13,
+        "question": "How can I view announcements?",
+        "answer": "Announcements are displayed on the portal."
+    },
+    {
+        "id": 14,
+        "question": "How can I give feedback?",
+        "answer": "Use the Feedback section to submit feedback."
+    },
+    {
+        "id": 15,
+        "question": "How can I logout?",
+        "answer": "Click the Logout option from the dashboard."
+    }
+]
