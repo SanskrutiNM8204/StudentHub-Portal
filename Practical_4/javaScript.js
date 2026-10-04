@@ -22,32 +22,9 @@ if (loginForm) {
         ) {
 
             alert("Student login successful!");
-            window.location.href = "Dashboard.html";
+            window.location.href = "../Practical_6/Dashboard.html";
 
         }
-
-        else if (
-            userType === "faculty" &&
-            username === "faculty" &&
-            password === "1234"
-        ) {
-
-            alert("Faculty login successful!");
-            window.location.href = "../Faculty_pages/F_Dashboard.html";
-
-        }
-
-        else if (
-            userType === "admin" &&
-            username === "admin" &&
-            password === "1234"
-        ) {
-
-            alert("Admin login successful!");
-            window.location.href = "../Admin_pages/A_Dashboard.html";
-
-        }
-
         else {
 
             alert(

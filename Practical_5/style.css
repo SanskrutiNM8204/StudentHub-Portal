@@ -1,0 +1,208 @@
+* {
+font-family:'Times New Roman', Times, serif;
+text-align: center;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background: #f3f5f7;
+color: #333;
+padding: 20px;
+}
+
+.login-container {
+width: 100%;
+max-width: 760px;
+margin: 20px auto;
+padding: 30px 35px;
+background: white;
+border: 1px solid #d8d8d8;
+border-radius: 8px;
+}
+
+.login-container > h1,
+.login-container > h2 {
+text-align: center;
+}
+
+.login-container > h1 {
+color: #174a73;
+margin-bottom: 5px;
+}
+
+.login-container > h2 {
+color: #555;
+font-size: 22px;
+margin-bottom: 30px;
+}
+
+.form-group {
+margin-bottom: 18px;
+}
+
+.form-group label {
+display: block;
+margin-bottom: 6px;
+font-weight: bold;
+font-size: 14px;
+}
+
+.form-group input,
+.form-group select {
+width: 100%;
+padding: 11px;
+border: 1px solid #b9b9b9;
+border-radius: 5px;
+font-family: Arial, sans-serif;
+font-size: 14px;
+background: white;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+outline: none;
+border-color: #176b9c;
+}
+
+.form-group input.error,
+.form-group select.error {
+border-color: #d33;
+}
+
+.form-group input.valid,
+.form-group select.valid {
+border-color: #368a54;
+}
+
+small {
+display: block;
+min-height: 18px;
+margin-top: 4px;
+color: #d33;
+font-size: 12px;
+}
+
+#passwordStrength {
+margin-top: 5px;
+font-size: 13px;
+font-weight: bold;
+}
+
+fieldset {
+border: none;
+margin-bottom: 18px;
+}
+
+legend {
+font-weight: bold;
+margin-bottom: 8px;
+font-size: 14px;
+}
+
+.radio-label {
+display: inline-flex !important;
+align-items: center;
+gap: 5px;
+margin-right: 18px;
+font-weight: normal !important;
+}
+
+.radio-label input {
+width: auto;
+}
+
+.terms {
+margin: 20px 0;
+}
+
+.terms label {
+display: flex;
+align-items: center;
+gap: 7px;
+font-size: 14px;
+}
+
+.terms input {
+width: auto;
+}
+
+button[type="submit"] {
+display: block;
+width: 100%;
+padding: 11px;
+border: none;
+border-radius: 5px;
+background: #176b9c;
+color: white;
+font-size: 15px;
+cursor: pointer;
+}
+
+button[type="submit"]:hover {
+background: #12557d;
+}
+
+#registerMessage {
+margin-top: 15px;
+text-align: center;
+font-weight: bold;
+}
+
+.login-container > p {
+text-align: center;
+margin-top: 18px;
+font-size: 14px;
+}
+
+a {
+color: #175a9c;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+footer {
+text-align: center;
+margin-top: 25px;
+color: #666;
+font-size: 13px;
+}
+
+body.dark-mode {
+background: #20252a;
+color: #eee;
+}
+
+body.dark-mode .login-container {
+background: #2d3338;
+border-color: #444;
+}
+
+body.dark-mode .form-group input,
+body.dark-mode .form-group select {
+background: #24292d;
+color: white;
+border-color: #555;
+}
+
+@media (max-width: 600px) {
+
+body {
+    padding: 10px;
+}
+
+.login-container {
+    margin: 10px auto;
+    padding: 22px 18px;
+}
+
+.radio-label {
+    display: flex !important;
+    margin-bottom: 8px;
+}
+
+}

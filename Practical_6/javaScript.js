@@ -1,185 +1,65 @@
-let data = {};
-let page = 1;
+let students = [];
 
-fetch("data.json")
-    .then(response => response.json())
-    .then(result => {
+async function loadStudents() {
 
-        data = result;
+const response = await fetch("data.json");
 
-        showStudents();
-        showEvents();
-        showFAQs();
+const data = await response.json();
 
-    })
-    .catch(error => {
+students = Array.isArray(data) ? data : data.students;
 
-        console.log("Error loading JSON:", error);
-
-    });
-
-
-function showStudents() {
-
-    let search =
-        document.getElementById("studentSearch").value.toLowerCase();
-
-    let course =
-        document.getElementById("courseFilter").value;
-
-    let students = data.students.filter(student =>
-
-        student.name.toLowerCase().includes(search) &&
-        (course === "all" || student.course === course)
-
-    );
-
-    let start = (page - 1) * 3;
-
-    let list = students.slice(start, start + 3);
-
-    document.getElementById("studentContainer").innerHTML =
-        list.map(student => `
-
-            <div class="student-card">
-
-                <h3>${student.name}</h3>
-
-                <p>Course: ${student.course}</p>
-
-                <p>Year: ${student.year}</p>
-
-                <p>Email: ${student.email}</p>
-
-            </div>
-
-        `).join("");
-
-    document.getElementById("pageNumber").textContent =
-        "Page " + page;
+showStudents(students);
 
 }
 
+function showStudents(data) {
 
-function showEvents() {
+const container =
+    document.getElementById("studentContainer");
 
-    let search =
-        document.getElementById("eventSearch").value.toLowerCase();
+container.innerHTML = "";
 
-    let category =
-        document.getElementById("eventFilter").value;
+if (!data || data.length === 0) {
+    container.innerHTML = "<p>No student found.</p>";
+    return;
+}
 
-    let events = data.events.filter(event =>
+data.forEach(function(student) {
 
-        event.title.toLowerCase().includes(search) &&
-        (category === "all" || event.category === category)
+    container.innerHTML += `
+        <div class="student-card">
+            <h3>${student.name}</h3>
+            <p>Course: ${student.course}</p>
+            <p>Year: ${student.year}</p>
+            <p>Email: ${student.email}</p>
+        </div>
+    `;
 
-    );
-
-    document.getElementById("eventContainer").innerHTML =
-        events.map(event => `
-
-            <div class="event-card">
-
-                <h3>${event.title}</h3>
-
-                <p>Date: ${event.date}</p>
-
-                <p>Category: ${event.category}</p>
-
-                <p>Location: ${event.location}</p>
-
-            </div>
-
-        `).join("");
+});
 
 }
 
+function searchStudent() {
 
-function showFAQs() {
+const text =
+    document.getElementById("studentSearch")
+    .value
+    .toLowerCase();
 
-    let search =
-        document.getElementById("faqSearch").value.toLowerCase();
+const result = students.filter(function(student) {
 
-    let faqs = data.faqs.filter(faq =>
+    return student.name
+        .toLowerCase()
+        .includes(text);
 
-        faq.question.toLowerCase().includes(search) ||
-        faq.answer.toLowerCase().includes(search)
+});
 
-    );
-
-    document.getElementById("faqContainer").innerHTML =
-        faqs.map(faq => `
-
-            <div class="faq-item">
-
-                <h3>${faq.question}</h3>
-
-                <p>${faq.answer}</p>
-
-            </div>
-
-        `).join("");
+showStudents(result);
 
 }
 
-
-function sortStudents() {
-
-    data.students.sort((a, b) =>
-        a.name.localeCompare(b.name)
-    );
-
-    page = 1;
-
-    showStudents();
-
-}
-
-
-function changePage(number) {
-
-    page += number;
-
-    if (page < 1) {
-        page = 1;
-    }
-
-    showStudents();
-
-}
-
-
 document
-    .getElementById("studentSearch")
-    .addEventListener("input", () => {
+.getElementById("studentSearch")
+.addEventListener("input", searchStudent);
 
-        page = 1;
-        showStudents();
-
-    });
-
-
-document
-    .getElementById("courseFilter")
-    .addEventListener("change", () => {
-
-        page = 1;
-        showStudents();
-
-    });
-
-
-document
-    .getElementById("eventSearch")
-    .addEventListener("input", showEvents);
-
-
-document
-    .getElementById("eventFilter")
-    .addEventListener("change", showEvents);
-
-
-document
-    .getElementById("faqSearch")
-    .addEventListener("input", showFAQs);
+loadStudents();
